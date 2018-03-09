@@ -13,14 +13,49 @@
     <hr />
     <div>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="contact_us.html">Contact Us</a>
+            </li>
         </ul>
     </div>
     <hr />
- 
-    CONTACT CONTENT HERE 
+
+    <form action="#">
+        <p>Name
+            <input type="text"> </p>
+        <p> Email
+            <input type="text"> </p>
+        <p> Phone
+            <input type="text"> </p>
+        <p> Reason for Inquiry
+            <select name="reason for inquiry">
+                <option value="Catering">Catering</option>
+                <option value="Private Party">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+        <p>Additonal Information:
+           <span><textarea name="Additional Information" cols="30" rows="10"></textarea> </span> 
+        </p>
+        <p>Have you been to the Restaurant?   <input type="radio" name="answer" value="No" checked/>No
+            <input type="radio" name="answer" value="Yes"/>Yes</p>
+        <p>Best days to contact you:
+                <input type="checkbox" name="ContactDay" value="M" />M
+                <input type="checkbox" name="ContactDay" value="T" />T
+                <input type="checkbox" name="ContactDay" value="W" />W
+                <input type="checkbox" name="ContactDay" value="Th" />Th
+                <input type="checkbox" name="ContactDay" value="F" />F
+        </p>
+        <input type="submit" value="Send Request"/>
+
+    </form>
 
     <hr />
     <footer>
