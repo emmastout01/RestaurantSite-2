@@ -1,1 +1,31 @@
 /* Style Header and Footer in this file */
+  
+h1 {
+    font-family: 'Cousine', monospace;
+}
+
+
+a {
+    font-family: none;
+}
+
+  a:link {
+    color: green;
+  }
+  
+  a:visited {
+    color: red;
+  }
+  
+  a:hover {
+    font-family: bold;
+  }
+  
+  a:active {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  h1 {
+      color: red;
+  }
