@@ -6,30 +6,33 @@
 </head>
 
 <body>
-    <div>
-        <h1>Restaurant Name</h1>
-    </div>
+    <header>
+        <div>
+            <h1>Emma's Coding Cafe</h1>
+        </div>
 
-    <hr />
-    <div>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="menu.html">Menu</a>
-            </li>
-            <li>
-                <a href="contact_us.html">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-    <hr />
+        <hr />
+        <div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <hr />
+    </header>
 
     <form action="#">
         <p>Name
             <input type="text"> </p>
-        <p> Email <!--Add regular expression to check that it is a valid email address -->
+        <p> Email
+            <!--Add regular expression to check that it is a valid email address -->
             <input type="text"> </p>
         <p> Phone
             <input type="text"> </p>
@@ -42,18 +45,20 @@
             </select>
         </p>
         <p>Additonal Information:
-           <span><textarea name="Additional Information" cols="30" rows="10"></textarea> </span> 
+            <span>
+                <textarea name="Additional Information" cols="30" rows="10"></textarea> </span>
         </p>
-        <p>Have you been to the Restaurant?   <input type="radio" name="answer" value="No" checked/>No
-            <input type="radio" name="answer" value="Yes"/>Yes</p>
+        <p>Have you been to the Restaurant?
+            <input type="radio" name="answer" value="No" checked/>No
+            <input type="radio" name="answer" value="Yes" />Yes</p>
         <p>Best days to contact you:
-                <input type="checkbox" name="ContactDay" value="M" />M
-                <input type="checkbox" name="ContactDay" value="T" />T
-                <input type="checkbox" name="ContactDay" value="W" />W
-                <input type="checkbox" name="ContactDay" value="Th" />Th
-                <input type="checkbox" name="ContactDay" value="F" />F
+            <input type="checkbox" name="ContactDay" value="M" />M
+            <input type="checkbox" name="ContactDay" value="T" />T
+            <input type="checkbox" name="ContactDay" value="W" />W
+            <input type="checkbox" name="ContactDay" value="Th" />Th
+            <input type="checkbox" name="ContactDay" value="F" />F
         </p>
-        <input type="submit" value="Send Request"/>
+        <input type="submit" value="Send Request" />
 
     </form>
 
