@@ -34,3 +34,8 @@ a {
   h1 {
       color: red;
   }
+
+  footer {
+      margin: auto;
+      text-align: center;
+  }
