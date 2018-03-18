@@ -3,15 +3,16 @@
 
 <head>
     <title>Restaurant Site</title>
-    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
 
     <style>
         body {
             background-color: powderblue;
         }
+
         .menu-items-1 {
             display: flex;
             justify-content: center;
@@ -27,11 +28,14 @@
         }
 
         .menu-heading {
-            font-size: 24px; 
+            font-size: 24px;
             text-align: center;
         }
 
-        .menu-description, .price, .beverages, h3 {
+        .menu-description,
+        .price,
+        .beverages,
+        h3 {
             text-align: center;
         }
 
@@ -39,69 +43,77 @@
             margin: auto;
             width: 30%;
         }
-
     </style>
 
 </head>
 
 <body>
-    <header>
-        <div class="title">
-            <h1>Emma's Coding Cafe</h1>
-        </div>
-        <hr />
-        <ul class="nav nav-pills">
-                <li ><a href="index.html">Home</a></li>
-                <li ><a href="menu.html">Menu</a></li>
-                <li ><a href="contact_us.html">Contact Us</a></li>
-              </ul>
-        <hr />
-    </header>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>Emma's Coding Cafe</h1>
+            </div>
+            <hr />
+            <ul class="nav nav-pills">
+                <li>
+                    <a href="index.html">
+                        <span class="glyphicon glyphicon-home">
+                    </a>
+                </li>
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+            <hr />
+        </header>
 
 
-    <h3>All our menu items are bug-free, served up fast and with style!</h3>
-    <div class='menu-items-1'>
-        <div class='menu-item'>
-            <p class="menu-heading">Mac-code-roni and Cheese</p>
-            <p class="menu-description">Enjoy this bowl of creamy Mac-n-Cheese with a tasty side of broccoli!
-            </p>
-            <p class="price">$8.99</p>
+        <h3>All our menu items are bug-free, served up fast and with style!</h3>
+        <div class='menu-items-1'>
+            <div class='menu-item'>
+                <p class="menu-heading">Mac-code-roni and Cheese</p>
+                <p class="menu-description">Enjoy this bowl of creamy Mac-n-Cheese with a tasty side of broccoli!
+                </p>
+                <p class="price">$8.99</p>
+            </div>
+            <div class='menu-item'>
+                <p class="menu-heading">Cup of Hot Java</p>
+                <p class="menu-description">Start off your day with Emma's premium cup of java!</p>
+                <p class="price">$1.49</p>
+            </div>
+            <div class='menu-item'>
+                <p class="menu-heading">Tech-Stack of Pancakes</p>
+                <p class="menu-description">No breakfast is complete without a steaming stack of pancakes, served with maple blueberry syrup!</p>
+                <p class="price">$7.99</p>
+            </div>
         </div>
-        <div class='menu-item'>
-            <p class="menu-heading">Cup of Hot Java</p>
-            <p class="menu-description">Start off your day with Emma's premium cup of java!</p>
-            <p class="price">$1.49</p>
+        <div class='menu-items-2'>
+            <div class='menu-item'>
+                <p class="menu-heading">
+                    <strong>S</strong>piced
+                    <strong>Q</strong>uail
+                    <strong>L</strong>egs</p>
+                <p class="menu-description">Our house-seasoned Spiced Quail Legs are served on top of a bed of creamy risotto. This meal can't be beat!</p>
+                <p class="price">$12.99</p>
+            </div>
+            <div class='menu-item'>
+                <p class="menu-heading">Browsing Cookies</p>
+                <p class="menu-description">Plate of homemade cookies fresh from the oven!</p>
+                <p class="price">$4.99</p>
+            </div>
+            <div class='menu-item'>
+                <p class="menu-heading">
+                    <strong>P</strong>iping
+                    <strong>H</strong>ot
+                    <strong>P</strong>eppers</p>
+                <p class="menu-description">These peppers have a kick to them--beware!</p>
+                <p class="price">$6.99</p>
+            </div>
         </div>
-        <div class='menu-item'>
-            <p class="menu-heading">Tech-Stack of Pancakes</p>
-            <p class="menu-description">No breakfast is complete without a steaming stack of pancakes, served with maple blueberry syrup!</p>
-            <p class="price">$7.99</p>
-        </div>
-    </div>
-    <div class='menu-items-2'>
-        <div class='menu-item'>
-            <p class="menu-heading">
-                <strong>S</strong>piced
-                <strong>Q</strong>uail
-                <strong>L</strong>egs</p>
-            <p class="menu-description">Our house-seasoned Spiced Quail Legs are served on top of a bed of creamy risotto. This meal can't be beat!</p>
-            <p class="price">$12.99</p>
-        </div>
-        <div class='menu-item'>
-            <p class="menu-heading">Browsing Cookies</p>
-            <p class="menu-description">Plate of homemade cookies fresh from the oven!</p>
-            <p class="price">$4.99</p>
-        </div>
-        <div class='menu-item'>
-            <p class="menu-heading">
-                <strong>P</strong>iping
-                <strong>H</strong>ot
-                <strong>P</strong>eppers</p>
-            <p class="menu-description">These peppers have a kick to them--beware!</p>
-            <p class="price">$6.99</p>
-        </div>
-    </div>
-    <div class='beverages'>
+        <div class='beverages'>
             <table>
                 <thead>
                     <th>Beverages</th>
@@ -126,20 +138,12 @@
                 </tbody>
             </table>
         </div>
-
-
-
-
-
-
-    <hr />
-    <footer>
+        <hr />
+        <footer>
             <p>1578 Grand Avenue, Boulder, CO 80301</p>
             <p>303-555-8345</p>
         </footer>
-    
-
-
+    </div>
 </body>
 
 </html>
