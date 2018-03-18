@@ -5,6 +5,12 @@
     <title>Restaurant Site</title>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+
+    <style>
+        label {
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,35 +37,46 @@
     </header>
 
     <form action="#">
-        <p>Name
-            <input type="text"> </p>
-        <p> Email
-            <!--Add regular expression to check that it is a valid email address -->
-            <input type="text"> </p>
-        <p> Phone
-            <input type="text"> </p>
-        <p> Reason for Inquiry
-            <select name="reason for inquiry">
-                <option value="Catering">Catering</option>
-                <option value="Private Party">Private Party</option>
-                <option value="Feedback">Feedback</option>
-                <option value="Other">Other</option>
-            </select>
-        </p>
-        <p>Additonal Information:
-            <span>
-                <textarea name="Additional Information" cols="30" rows="10"></textarea> </span>
-        </p>
-        <p>Have you been to the Restaurant?
-            <input type="radio" name="answer" value="No" checked/>No
-            <input type="radio" name="answer" value="Yes" />Yes</p>
-        <p>Best days to contact you:
+
+        <label for="Name">Name: </label>
+        <input type="text" id="Name" />
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" id="Email" />
+        <br>
+        <br>
+        <label for="Phone">Phone: </label>
+        <input type="text" id="Phone" />
+        <br>
+        <br>
+        <label for="Reason for Inquiry">Reason for Inquiry: </label>
+        <select name="reason for inquiry">
+            <option value="Catering">Catering</option>
+            <option value="Private Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="Additional Information">Additional Information: </label>
+        <span>
+            <textarea name="Additional Information" cols="30" rows="10"></textarea> </span>
+            <br>
+            <br>
+        <label for="Been to Restaurant">Have you ever been to the restaurant? </label>
+        <input type="radio" name="answer" value="No" checked/>No
+        <input type="radio" name="answer" value="Yes" />Yes
+        <br>
+        <br>
+        <label for="Contact days">Best days to contact you: </label>
             <input type="checkbox" name="ContactDay" value="M" />M
             <input type="checkbox" name="ContactDay" value="T" />T
             <input type="checkbox" name="ContactDay" value="W" />W
             <input type="checkbox" name="ContactDay" value="Th" />Th
             <input type="checkbox" name="ContactDay" value="F" />F
-        </p>
+            <br>
+            <br>
         <input type="submit" value="Send Request" />
 
     </form>
