@@ -7,4 +7,3 @@ This is a pre-work assignment for the Software Guild. It highlights basic HTML, 
 - HTML
 - CSS 
 - Bootstrap
-- JavaScript
