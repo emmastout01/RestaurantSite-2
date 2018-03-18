@@ -11,19 +11,19 @@ h1 {
 }
 
 a {
-    font-family: none;
+   text-decoration: underline;
 }
 
   a:link {
-    color: green;
+    color: rgb(1, 21, 44);
   }
   
   a:visited {
-    color: red;
+    color: rgb(138, 23, 204);
   }
   
   a:hover {
-    font-family: bold;
+    font-weight: bold;
   }
   
   a:active {
