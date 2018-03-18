@@ -1,13 +1,17 @@
 /* Style Header and Footer in this file */
   
+* {
+    font-family: 'Cousine', monospace;
+}
 h1 {
     font-family: 'Cousine', monospace;
-    color: darkblue
+    color: darkblue;
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .title {
     margin: auto;
-    width: 50%;
     text-align: center;
 }
 
